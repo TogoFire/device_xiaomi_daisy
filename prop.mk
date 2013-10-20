@@ -279,3 +279,7 @@ sys.keep_app_1=com.dolby.ds1appUI
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.com.google.ime.corner_key_r=35 \
 ro.com.google.ime.kb_pad_port_b=1
+
+# Property to choose between virtual/external wfd display
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.wfd.virtual=0
