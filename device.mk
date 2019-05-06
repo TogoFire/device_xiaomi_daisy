@@ -124,7 +124,8 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     android.hardware.bluetooth.a2dp@1.0-impl \
     android.hardware.bluetooth.a2dp@1.0-service \
-    libbt-vendor
+    libbt-vendor \
+    libbthost_if
 
 # A/B
 AB_OTA_UPDATER := true
