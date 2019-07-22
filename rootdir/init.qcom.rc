@@ -515,6 +515,8 @@ on property:sys.boot_completed=1
     write /sys/devices/soc/qpnp-smbcharger-18/power_supply/battery/subsystem/bms/hi_power 1
     #Starting perf properly
     setprop vendor.post_boot.parsed 1
+    #Chown node for Smart_Charging
+    chown system system /sys/class/power_supply/battery/battery_charging_enabled
 
 on property:persist.vendor.radio.atfwd.start=false
     stop vendor.atfwd
