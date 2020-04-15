@@ -201,6 +201,10 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
+# Vulkan
+PRODUCT_PACKAGES += \
+    libvulkan
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
