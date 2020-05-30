@@ -80,16 +80,11 @@ persist.debug.coresight.config=stm-events
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-debug.egl.hw=0 \
 debug.enable.sglscale=1 \
-debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.logs=0 \
 debug.sf.enable_hwc_vds=1 \
-debug.sf.hw=0 \
-debug.sf.latch_unsignaled=1 \
 debug.cpurend.vsync=false \
 debug.sf.recomputecrop=0 \
-dev.pm.dyn_samplingrate=1 \
 persist.debug.wfd.enable=1 \
 persist.demo.hdmirotationlock=false \
 persist.hwc.enable_vds=1 \
@@ -101,8 +96,34 @@ ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=0 \
-vendor.gralloc.enable_fb_ubwc=1 \
-debug.hwui.renderer=opengl
+vendor.gralloc.enable_fb_ubwc=1
+
+# Vulkan
+PRODUCT_PROPERTY_OVERRIDES += \
+debug.hwui.renderer=skiavk \
+com.qc.hardware=true \
+debug.composition.type=gpu \
+debug.egl.hw=1 \
+debug.egl.profiler=1 \
+debug.enabletr=true \
+debug.gralloc.enable_fb_ubwc=1 \
+debug.overlayui.enable=1 \
+debug.performance.tuning=1 \
+debug.qc.hardware=true \
+debug.qctwa.preservebuf=1 \
+debug.qctwa.statusbar=1 \
+debug.sf.hw=1 \
+debug.sf.latch_unsignaled=1 \
+dev.pm.dyn_samplingrate=1 \
+hw3d.force=1 \
+hwui.disable_vsync=true \
+hwui.render_dirty_regions=false \
+ro.config.enable.hw_accel=true \
+ro.fb.mode=1 \
+ro.product.gpu.driver=1 \
+ro.sf.compbypass.enable=0 \
+debug.egl.force_msaa=1 \
+debug.egl.buffcount=4
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -140,7 +161,6 @@ ro.gps.agps_provider=1
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
-debug.sf.enable_hwc_vds=1 \
 media.aac_51_output_enabled=true \
 media.msm8956hw=0 \
 media.stagefright.audio.sink=280 \
@@ -153,8 +173,6 @@ vendor.vidc.dec.downscalar_width=1920 \
 vendor.vidc.disable.split.mode=1 \
 vendor.vidc.enc.disable.pq=true \
 vendor.vidc.enc.disable_bframes=1 \
-vendor.video.disable.ubwc=1 \
-vendor.gralloc.enable_fb_ubwc=1 \
 vendor.video.disable.ubwc=1
 
 # Memory optimizations
