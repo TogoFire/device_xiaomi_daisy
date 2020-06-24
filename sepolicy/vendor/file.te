@@ -59,3 +59,6 @@ type sysfs_corecontrol, sysfs_type, fs_type;
 type sysfs_vddrestrict, sysfs_type, fs_type;
 
 type public_adsprpcd_file, file_type;
+
+#Micam
+type vendor_camera_font_file, file_type, vendor_file_type;

@@ -134,3 +134,6 @@
 
 # Product Libs
 /(product|system/product)/lib(64)?(/.*)?	u:object_r:system_lib_file:s0
+
+# camera watermark fonts
+/vendor/camera/fonts(/.*)?        u:object_r:vendor_camera_font_file:s0

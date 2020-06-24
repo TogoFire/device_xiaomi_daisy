@@ -81,3 +81,8 @@ allow platform_app sensors_panel_prop:file { read };
 allow platform_app sysfs_graphics:dir { search };
 allow platform_app sensors_panel_prop:file { open };
 allow platform_app sensors_panel_prop:file { getattr };
+
+#Micam
+typeattribute platform_app system_executes_vendor_violators;
+
+r_dir_file(platform_app, vendor_camera_font_file)
