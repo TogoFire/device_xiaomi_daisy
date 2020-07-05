@@ -380,13 +380,13 @@ vendor/lib64/libq3dtools_esx.so|1ffb5bc9fdde6b771ac4747fd03eab869f8bacb6
 
 # Graphics (SDM) - from LA.UM.8.6.2.r1-07100-89xx.0
 vendor/lib/libscalar.so|19694644ccc2feac6af99f46cbefac687b31e39f
-vendor/lib/libsdm-color.so|4dc7a8c90521c45b3e25623985cf4486e6fb7b57
+vendor/lib/libsdm-color.so|7291ff8f6f422b4010a1ab809bb5a2216d4a2b9a
 vendor/lib/libsdm-diag.so|851f807ce504bb6edb413277eefc2cf3923ac4b3
 -vendor/lib/libsdm-disp-vndapis.so|5a0ea39019d5b0709c48bbfcb61cd817e0307c95
 vendor/lib/libsdmextension.so|3bff482fa49fa9ba52f291990e2882cc8fd39474
 vendor/lib/libtinyxml2_1.so|ae18b1269052274ad98ff954bf8e1ce0fe50eccf
 vendor/lib64/libscalar.so|2887ceaf08f1c17fffe13038168d48dcb442f0cc
-vendor/lib64/libsdm-color.so|f465d382260baed2d2f326ca663e03cccd73a0b7
+vendor/lib64/libsdm-color.so|fb624abddaf7c5971f470c36dcdd7c7feb060352
 vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
 -vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
 vendor/lib64/libsdmextension.so|ebb998d26b322affc9694049e6bdd94fdd7267a1
