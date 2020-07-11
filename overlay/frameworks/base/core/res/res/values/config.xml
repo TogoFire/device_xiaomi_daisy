@@ -541,9 +541,6 @@
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
-    <!-- FPSInfoService Fps file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
-
     <!-- Smart Charging is available. -->
     <bool name="config_smartChargingAvailable">true</bool>
     <bool name="config_deviceSupportSmartCharging">true</bool>
