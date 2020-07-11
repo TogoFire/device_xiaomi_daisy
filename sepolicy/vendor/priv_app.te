@@ -155,3 +155,8 @@ allow priv_app spcomlib_prop:file { getattr };
 allow priv_app system_boot_reason_prop:file { getattr };
 allow priv_app vendor_audio_prop:file { open };
 allow priv_app vendor_audio_prop:file { getattr };
+allow priv_app cpucore_prop:file { open };
+allow priv_app ctl_adbd_prop:file { getattr };
+allow priv_app ctl_gsid_prop:file { getattr };
+allow priv_app ctl_fm_prop:file { open };
+allow priv_app ctl_fm_prop:file { getattr };

@@ -101,3 +101,10 @@ allow system_app selinuxfs:file { read };
 
 # zram
 r_dir_file(system_app sysfs_zram)
+
+allow system_app postinstall_mnt_dir:dir { getattr };
+allow system_app adsprpc_prop:file { open };
+allow system_app adsprpc_prop:file { getattr };
+allow system_app apexd_prop:file { open };
+allow system_app apexd_prop:file { getattr };
+allow system_app bg_boot_complete_prop:file { open };

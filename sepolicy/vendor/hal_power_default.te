@@ -2,13 +2,11 @@
 allow hal_power_default proc_touchpanel:dir search;
 allow hal_power_default proc_touchpanel:file rw_file_perms;
 allow hal_power_default init:binder call;
+
+#DT2W
 allow hal_power_default sysfs:file { open read write };
+
 allow hal_power_default proc:file { open write };
 allow hal_power_default input_device:chr_file { open read write };
 
-r_dir_file(hal_power_default, debugfs_rpm)
 r_dir_file(hal_power_default, sysfs_graphics)
-
-# DT2W
-allow hal_power_default sysfs:file { write };
-allow hal_power_default sysfs:file { open };

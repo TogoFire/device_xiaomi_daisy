@@ -54,3 +54,8 @@ allow platform_app hal_dms_default:binder { call transfer };
 allow platform_app sysfs_kgsl:lnk_file read;
 allow platform_app vendor_display_prop:file { getattr };
 allow platform_app system_app_data_file:dir { getattr };
+allow platform_app adsprpc_prop:file { open };
+allow platform_app adsprpc_prop:file { getattr };
+allow platform_app apexd_prop:file { getattr };
+allow platform_app bg_boot_complete_prop:file { open };
+allow platform_app bluetooth_prop:file { open };

@@ -8,3 +8,6 @@ allow zygote shell_data_file:file { read };
 allow zygote zygote:capability { kill };
 allow app_zygote zygote_exec:file { read execute };
 allow zygote same_process_hal_file:file { execute read open getattr map };
+allow zygote vendor_system_prop:file { read };
+allow zygote vendor_system_prop:file { open };
+allow zygote vendor_system_prop:file { getattr };
