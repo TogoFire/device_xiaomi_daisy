@@ -550,9 +550,9 @@ public class DeviceSettings extends PreferenceFragment implements
               return;
             }
             if (params[0]) {
-              SuShell.runWithSuCheck("setprop persist.camera.HAL3.enabled 1");
+              SuShell.runWithSuCheck("setprop persist.vendor.camera.HAL3.enabled 1");
             } else {
-              SuShell.runWithSuCheck("setprop persist.camera.HAL3.enabled 0");
+              SuShell.runWithSuCheck("setprop persist.vendor.camera.HAL3.enabled 0");
             }
           }
         }
