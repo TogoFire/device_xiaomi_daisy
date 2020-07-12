@@ -201,11 +201,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
-# Spectrum
-PRODUCT_PACKAGES += \
-   init.spectrum.rc \
-   init.spectrum.sh
-
 # Ebtables
 PRODUCT_PACKAGES += \
     ebtables \
