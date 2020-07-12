@@ -271,7 +271,3 @@ ro.debuggable=1
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
-
-#Dolby Plus
-PRODUCT_PROPERTY_OVERRIDES += \
-sys.keep_app_1=com.dolby.ds1appUI
