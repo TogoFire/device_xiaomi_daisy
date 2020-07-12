@@ -116,7 +116,7 @@
                     android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
-<<<<<<< HEAD
+
         <service
             android:name=".SpectrumTileService" 
             android:icon="@drawable/ic_spectrum" 
@@ -162,7 +162,5 @@
             </intent-filter>
         </service>
 
-=======
->>>>>>> parent of 2af0a9b... daisy: Xiaomiparts: Add Spectrum Tile
     </application>
 </manifest>
