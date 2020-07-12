@@ -476,3 +476,7 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# TWRP
+recovery_variant += \
+   TWRP
