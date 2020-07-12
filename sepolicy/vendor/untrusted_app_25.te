@@ -19,3 +19,6 @@ allow untrusted_app_25 persist_camera_prop:file { getattr };
 allow untrusted_app_25 serialno_prop:file { read };
 allow untrusted_app_25 rootfs:dir { read };
 allow untrusted_app_25 rootfs:dir { open };
+allow untrusted_app_25 adsprpc_prop:file { open };
+allow untrusted_app_25 apexd_prop:file { open };
+allow untrusted_app_25 apexd_prop:file { getattr };

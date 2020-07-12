@@ -4,3 +4,5 @@ allow bootanim sysfs_kgsl:dir search;
 allow bootanim sysfs_kgsl:lnk_file read;
 allow bootanim vendor_file:file { execute getattr open read };
 allow bootanim vendor_system_prop:file { getattr };
+allow bootanim vendor_system_prop:file { read };
+allow bootanim vendor_system_prop:file { open };

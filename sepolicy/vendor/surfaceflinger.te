@@ -4,3 +4,5 @@ allow surfaceflinger vendor_file:file { execute getattr open read };
 allow surfaceflinger sysfs_kgsl:file { getattr read open };
 allow surfaceflinger firmware_file:dir search;
 r_dir_file(surfaceflinger, sysfs_kgsl)
+
+allow surfaceflinger vendor_system_prop:file { getattr };
