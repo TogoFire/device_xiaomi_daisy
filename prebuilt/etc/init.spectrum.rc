@@ -92,8 +92,8 @@ write /sys/module/msm_performance/parameters/touchboost 0
 # Configure freq
 write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq "652800"
 write /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq "652800"
-write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq "1689600"
-write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq "1689600"
+write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq "1401600"
+write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq "1401600"
 
 #Configure gpu
 write /sys/class/kgsl/kgsl-3d0/devfreq/governor "simple_ondemand"
@@ -121,19 +121,19 @@ write /sys/class/kgsl/kgsl-3d0/devfreq/governor "msm-adreno-tz"
 # Ultra-Battery
 on property:persist.spectrum.profile=4
 # Configure governor settings for little cluster
-write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "schedutil"
+write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "powersave"
 
 # Configure governor settings for big cluster
-write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor "schedutil"
+write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor "powersave"
 
 #Touch Boost
 write /sys/module/msm_performance/parameters/touchboost 0
 
 # Configure freq
-write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq "652800"
-write /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq "652800"
-write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq "1401600"
-write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq "1401600"
+# write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq "652800"
+# write /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq "652800"
+# write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq "1401600"
+# write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq "1401600"
 
 #Configure gpu
 write /sys/class/kgsl/kgsl-3d0/devfreq/governor "simple_ondemand"
