@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/daisy/device.mk)
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1920*1080
+TARGET_BOOT_ANIMATION_RES := 2280*1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
