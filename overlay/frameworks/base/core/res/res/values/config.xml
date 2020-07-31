@@ -614,5 +614,8 @@
          Settings.System.RING_VIBRATION_INTENSITY more details on the constant values and
          meanings. -->
     <integer name="config_defaultRingVibrationIntensity">3</integer>
+	    <!-- Screen off delay -->
+    <integer name="config_screen_off_delay">0</integer>
+    <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
 
 </resources>

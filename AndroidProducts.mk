@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_daisy.mk
+    $(LOCAL_DIR)/bliss_daisy.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_daisy-user \
-    xtended_daisy-userdebug \
-    xtended_daisy-eng
+    bliss_daisy-user \
+    bliss_daisy-userdebug \
+    bliss_daisy-eng
