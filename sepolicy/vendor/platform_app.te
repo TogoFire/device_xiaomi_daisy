@@ -38,8 +38,8 @@ allow platform_app pstorefs:dir { read };
 allow platform_app sysfs_dt_firmware_android:dir { read };
 allow platform_app sysfs_wakeup_reasons:dir { read };
 allow platform_app sysfs_slpi:dir { read };
-allow platform_app spectrum_prop:property_service { set };
-allow platform_app spectrum_prop:file { read open getattr };
+#allow platform_app spectrum_prop:property_service { set };
+#allow platform_app spectrum_prop:file { read open getattr };
 
 # Face Unlock
 get_prop(platform_app, camera_prop)
