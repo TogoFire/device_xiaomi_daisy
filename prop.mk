@@ -281,3 +281,7 @@ ro.com.google.ime.kb_pad_port_b=1
 # Property to choose between virtual/external wfd display
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.wfd.virtual=0
+
+# Enable QC2 bufferqueue block-pool
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.qc2.use.bqpool=1
