@@ -28,6 +28,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
+#GAPPS
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
 # Board
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msm8953
@@ -484,3 +487,4 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+SELINUX_IGNORE_NEVERALLOWS := true
