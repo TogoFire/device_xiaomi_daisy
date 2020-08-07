@@ -207,11 +207,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
-# Spectrum
-PRODUCT_PACKAGES += \
-   init.spectrum.rc \
-   init.spectrum.sh
-
 # Ebtables
 PRODUCT_PACKAGES += \
     ebtables \
@@ -354,12 +349,6 @@ PRODUCT_PACKAGES += \
     move_time_data.sh \
     move_wifi_data.sh \
     ueventd.qcom.rc \
-    init.gpuboost.rc \
-    init.gpuboost.sh \
-    init.cpuboost.rc \
-    init.cpuboost.sh \
-    init.parallax.rc \
-    init.parallax.sh \
     init.camera.rc \
     init.camera.sh
 
