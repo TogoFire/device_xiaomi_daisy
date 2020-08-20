@@ -218,3 +218,8 @@ allow untrusted_app hal_memtrack_default:dir { getattr };
 allow untrusted_app hal_power_default:dir { getattr };
 allow untrusted_app hal_sensors_default:dir { getattr };
 allow untrusted_app hal_thermal_default:dir { getattr };
+allow untrusted_app system_bootstrap_lib_file:dir { read };
+allow untrusted_app postinstall_mnt_dir:dir { open };
+allow untrusted_app mnt_vendor_file:dir { read };
+allow untrusted_app mnt_product_file:dir { read };
+allow untrusted_app apex_mnt_dir:dir { open };

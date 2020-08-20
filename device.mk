@@ -121,7 +121,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbluetooth_qti \
     libbt-logClient.so \
-    libldacBT_dec \
     audio.a2dp.default \
     android.hardware.bluetooth.a2dp@1.0-impl \
     android.hardware.bluetooth.a2dp@1.0-service \
