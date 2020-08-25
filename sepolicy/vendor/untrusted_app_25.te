@@ -35,4 +35,4 @@ allow untrusted_app_25 boottime_prop:file { getattr };
 allow untrusted_app_25 cnd_vendor_prop:file { getattr };
 allow untrusted_app_25 sysfs:file { read };
 allow untrusted_app_25 system_file:file { lock };
-allow untrusted_app_25 vendor_file:file { read open };
+allow untrusted_app_25 vendor_file:file { read open getattr };

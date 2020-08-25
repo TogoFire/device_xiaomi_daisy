@@ -128,4 +128,4 @@ allow system_app vendor_system_prop:file { read };
 allow system_app selinuxfs:file { open };
 allow system_app default_prop:property_service { set };
 allow system_app system_data_file:file { write open };
-allow system_app vendor_file:file { read open };
+allow system_app vendor_file:file { read open getattr };
