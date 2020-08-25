@@ -231,4 +231,4 @@ allow untrusted_app_27 installd_service:service_manager { find };
 allow untrusted_app_27 wifiscanner_service:service_manager { find };
 allow untrusted_app_27 window_service:service_manager { find };
 allow untrusted_app_27 cgroup:dir { read };
-allow untrusted_app_27 vendor_file:file { read };
+allow untrusted_app_27 vendor_file:file { read open };
