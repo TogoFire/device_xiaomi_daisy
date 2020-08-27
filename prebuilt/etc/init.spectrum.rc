@@ -96,7 +96,7 @@ write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq "1689600"
 write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq "1689600"
 
 #Configure gpu
-write /sys/class/kgsl/kgsl-3d0/devfreq/governor "simple_ondemand"
+write /sys/class/kgsl/kgsl-3d0/devfreq/governor "msm-adreno-tz"
 
 # Gaming
 on property:persist.spectrum.profile=3
