@@ -470,6 +470,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
 
+# Permission Codeaurora Snapcam
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/org.codeaurora.snapcam.xml:system/etc/permissions/org.codeaurora.snapcam.xml
+
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
     libaacwrapper \
