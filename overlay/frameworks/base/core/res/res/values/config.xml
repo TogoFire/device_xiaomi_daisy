@@ -704,9 +704,6 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
-    <!-- Enable face auth when swiping security view -->
-    <bool name="config_faceAuthOnSecurityView">true</bool>
-
     <!-- Whether or not we should show vendor mismatch message -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
 
