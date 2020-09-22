@@ -6,3 +6,4 @@ allow netmgrd system_file:file { execute execute_no_trans getattr open read };
 allow netmgrd netmgrd:capability { sys_admin };
 allow netmgrd diag_device:chr_file { read write };
 allow netmgrd vendor_default_prop:property_service { set };
+allow netmgrd netmgrd:capability { kill };

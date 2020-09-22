@@ -202,3 +202,4 @@ allow priv_app device_logging_prop:file { getattr };
 allow priv_app dirac_prop:file { open };
 allow priv_app dirac_prop:file { getattr };
 allow priv_app dumpstate_options_prop:file { open };
+allow priv_app hal_memtrack_hwservice:hwservice_manager { find };
