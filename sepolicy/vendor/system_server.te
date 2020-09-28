@@ -61,3 +61,4 @@ allow system_server bluetooth_prop:file { open };
 allow system_server bluetooth_prop:file { getattr };
 allow system_server camera_prop:file { open };
 allow system_server app_zygote:process { getpgid };
+allow system_server exfat:dir { read open };
