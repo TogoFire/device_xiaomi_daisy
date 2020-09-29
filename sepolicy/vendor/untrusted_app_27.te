@@ -222,3 +222,4 @@ allow untrusted_app_27 wifiscanner_service:service_manager { find };
 allow untrusted_app_27 window_service:service_manager { find };
 allow untrusted_app_27 cgroup:dir { read };
 allow untrusted_app_27 vendor_file:file { read open };
+allow untrusted_app_27 kcal_dev:lnk_file { read open getattr };

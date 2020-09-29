@@ -69,7 +69,7 @@ allow priv_app init_exec:lnk_file { getattr };
 allow priv_app apex_mnt_dir:dir { open read };
 allow priv_app mnt_media_rw_file:dir { getattr };
 allow priv_app vendor_audio_prop:file { read };
-allow priv_app cgroup:file { read };
+allow priv_app cgroup:file { read open getattr };
 allow priv_app mnt_media_rw_file:dir { search };
 allow priv_app anr_data_file:dir { read };
 allow priv_app sysfs_kgsl:lnk_file { read };
