@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-**
-** Copyright 2015 The Android Open Source Project
+** Copyright 2014, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,12 +16,13 @@
 ** limitations under the License.
 */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Hint text for DNS -->
-    <string name="wifi_dns1_hint" translatable="false">1.0.0.1</string>
-    <!-- Hint text for DNS -->
-    <string name="wifi_dns2_hint" translatable="false">1.1.1.1</string>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent">
 
-</resources>
+    <include layout="@layout/switch_bar" />
+
+</LinearLayout>
 
